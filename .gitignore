@@ -1,6 +1,6 @@
-service-registration-service/build/
-service-registration-service/.idea/
-service-registration-service/,gradle/
-product-service/build/
-product-service/.idea/
-product-service/,gradle/
+service-registration-service/build
+service-registration-service/.idea
+service-registration-service/,gradle
+product-service/build
+product-service/.idea
+product-service/,gradle
