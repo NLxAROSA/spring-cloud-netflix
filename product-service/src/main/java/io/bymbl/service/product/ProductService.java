@@ -13,7 +13,7 @@ public class ProductService {
 
     @RequestMapping("/")
     public Product getProduct(@RequestParam("id") long id)    {
-        return new Product(id, "test");
+        return new Product(id, "This is a really cool product!");
     }
 
 }
