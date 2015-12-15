@@ -13,7 +13,7 @@ public class CustomerService {
 
     @RequestMapping("/")
     public Customer getCustomer(@RequestParam("id") long id) {
-        return new Customer(id, "This is a really cool product!");
+        return new Customer(id, "I am Sam");
     }
 
 }
