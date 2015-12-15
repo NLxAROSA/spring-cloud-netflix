@@ -34,6 +34,7 @@ dependencyManagement {
 }
 
 dependencies {
+    compile('org.springframework.boot:spring-boot-actuator')
     compile ('org.springframework.cloud:spring-cloud-starter-eureka')
 }
 

@@ -8,3 +8,5 @@ eureka:
     registryFetchIntervalSeconds: 5
     availabilityZones:
       default: ${APPLICATION_DOMAIN:${DOMAIN:defaultZone}}
+    healthcheck:
+      enabled: true
